@@ -1,10 +1,10 @@
 import React from "react";
-import './Header.css';
+import "./Header.css";
+import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
   return (
     <div className="header">
-      Header
       <img
         className="header_logo"
         src="https://inductiveautomation.com/static/images/logos/inductive-automation-logo.b565238b0b65.png"
@@ -12,6 +12,7 @@ function Header() {
       <div className="header_search">
         <input className="header_searchInput" type="text" />
         {/* logo */}
+        <SearchIcon className="header_searchIcon" />
       </div>
       <div className="header_nav">
         <div className="header_option">
